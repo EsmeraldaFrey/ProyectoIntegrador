@@ -4,10 +4,7 @@
     align-items: center;
 }
 .redes{
-     margin-right: 0.5em;
-}
-.redes img{
-    margin: 0.1em;
+    margin-right: 0.5em;
 }
 #logoAP{
     width: 150px;
@@ -19,7 +16,8 @@ img{
     border-width: medium;
 }
 
-@media(max-width: 575px){
+/*--- Para la vista de celular ---*/
+@media (max-width: 575px){
     .container{
         flex-direction: column;
     }
@@ -29,6 +27,6 @@ img{
         align-items: center;
     }
     .redes img{
-        margin: 0.1em;
+        margin: 0.2em;
     }
 }
