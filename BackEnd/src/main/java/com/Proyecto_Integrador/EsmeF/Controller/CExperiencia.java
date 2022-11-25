@@ -32,7 +32,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://portfolioesme.web.app")
 public class CExperiencia {
     @Autowired
@@ -96,4 +95,3 @@ public class CExperiencia {
              
     }
 }
-

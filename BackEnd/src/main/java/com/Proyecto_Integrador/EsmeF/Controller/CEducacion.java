@@ -27,7 +27,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://portfolioesme.web.app")
 public class CEducacion {
     @Autowired
@@ -96,4 +95,3 @@ public class CEducacion {
         return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);
     }
 }
-
